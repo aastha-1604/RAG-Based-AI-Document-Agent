@@ -5,7 +5,4 @@ __pycache__/
 
 data/*.pdf
 
-.vscode/
-.idea/
 
-.DS_Store
