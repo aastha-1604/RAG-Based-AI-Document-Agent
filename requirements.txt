@@ -1,19 +1,20 @@
-fastapi
-uvicorn
-streamlit
-python-multipart
-requests
-python-dotenv
+fastapi==0.141.1
+uvicorn==0.53.0
+streamlit==1.64.0
+python-multipart==0.0.32
+requests==2.34.2
+python-dotenv==1.2.3
 
-langchain
-langchain-community
-langchain-text-splitters
-langchain-huggingface
-langchain-groq
-langchain-pinecone
-langgraph
+langchain==1.4.1
+langchain-community==0.4.2
+langchain-core==1.6.3
+langchain-text-splitters==1.1.2
+langchain-huggingface==1.2.2
+langchain-groq==1.1.3
+langchain-pinecone==0.2.13
+langgraph==1.2.11
 
-pinecone
-sentence-transformers
-tavily-python
-pypdf
+pinecone==7.3.0
+sentence-transformers==6.0.1
+tavily-python==0.8.3
+pypdf==6.19.0
