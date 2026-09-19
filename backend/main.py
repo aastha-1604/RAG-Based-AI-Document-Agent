@@ -14,7 +14,7 @@ app = FastAPI(
     title="RAG AI Document Agent"
 )
 
-graph = None
+graph = build_graph()
 
 
 # Data expected by /ask
@@ -82,10 +82,6 @@ async def upload_pdf(file: UploadFile = File(...)):
 
 @app.post("/ask")
 def ask_question(request: QuestionRequest):
-    global graph
-
-    if graph is None:
-        graph = build_graph()
 
     result = graph.invoke(
         {
