@@ -322,15 +322,6 @@ This architecture can be extended to:
 
 Potential extensions include conversation memory, source citations, richer document management, support for additional file formats, authentication, retrieval evaluation, reranking, and improved document selection for multi-document conversations.
 
----
-
-## 👩‍💻 Author
-
-**Aastha Singh**
-
-Aspiring Data Analytics & Product Manager | AI Enthusiast
-
-**Skills:** Python • SQL • Data Analytics • Generative AI • RAG • LangChain • LangGraph • FastAPI
 
 ---
 
