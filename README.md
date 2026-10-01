@@ -9,7 +9,7 @@ The system combines **FastAPI, Streamlit, LangChain, LangGraph, Pinecone, Groq, 
 
 ## ✨ Key Features
 
-* 📤 **Multiple PDF Uploads** — Upload and process multiple PDF documents through the application.
+* 📤 **PDF Uploads** — Upload and process PDF documents through the application.
 * 🔎 **Semantic Document Retrieval** — Retrieves relevant document chunks using vector similarity search.
 * 🧠 **RAG-Based Question Answering** — Combines retrieved document context with an LLM to generate grounded answers.
 * 🆔 **Document-Specific Retrieval** — Uses document identifiers and metadata filtering to keep retrieval scoped to the relevant uploaded document.
